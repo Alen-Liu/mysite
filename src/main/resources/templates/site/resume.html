@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<div th:replace="site/head"></div>
+
+<body>
+    <main role="main-inner-wrapper" class="container">
+        <div class="row" style="margin-top: 80px">
+            <section class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <article role="">
+                    <p style="color: #111111; font-size: 36px; font-family: 'Helvetica';">刘伦</p>
+                    <p style="color: #58585a; font-size: 16px; ">Android开发工程师</p>
+                    <p style="color: #58585a; font-size: 16px; ">只关注青岛职位</p>
+                </article>
+            </section>
+
+            <section class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div >
+                    <p style="color: #58585a; font-size: 16px;"> 联系方式</p>
+                </div>
+                <div style="border-left: 1px solid #222222; padding-left: 10px;">
+                    <p style="color: #58585a; font-size: 16px;"> QQ: 1063635976</p>
+                    <p style="color: #58585a; font-size: 16px;"> 邮箱：sduliulun@163.com</p>
+                    <p style="color: #58585a; font-size: 16px;"> 手机：13165038632</p>
+                </div>
+            </section>
+
+            <section class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div >
+                    <p style="color: #58585a; font-size: 16px;"> 基本信息</p>
+                </div>
+                <div style="border-left: 1px solid #222222; padding-left: 10px;">
+                    <p style="color: #58585a; font-size: 16px;"> 出生年： 1991</p>
+                    <p style="color: #58585a; font-size: 16px;"> 性别：男</p>
+                    <p style="color: #58585a; font-size: 16px;"> 城市：青岛</p>
+                </div>
+            </section>
+
+            <section class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div >
+                    <p style="color: #58585a; font-size: 16px;"> 社交账号</p>
+                </div>
+                <div style="border-left: 1px solid #222222; padding-left: 10px;">
+                    <p style="color: #58585a; font-size: 16px;"> 个人网站： alen.live</p>
+                    <p style="color: #58585a; font-size: 16px;"> CSDN: <a th:href="@{http://blog.csdn.net/sduliulun}">sduliulun</a> </p>
+                    <p style="color: #58585a; font-size: 16px;"> GitHub: <a th:href="@{github.com/Alen-Liu}">Alen-Liu</a> </p>
+                </div>
+            </section>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="row" style="margin-top: 60px">
+            <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <p style="color: #222222; font-size: 22px;">个人简介</p>
+                <hr style="border:1px dashed #222222"/>
+                <p style="color: #58585a; font-size: 16px;">目前就职与，参与发、维护工作。
+                    <br/><br/>
+                    自 2016 年开始接触 Java 开发，至今已有 2 年时间，熟练掌握 Java 代码的编写。熟悉大部分 Java 开发与调试工具，理解 Java 结构与运行机制，注重代码质量与执行效率。
+                    <br/><br/>
+                    了解常见 Spring，SpringMVC，Mybatis，Hibernate，SpringBoot，SpringCloud 架构，熟悉各类常用第三方库的使用。
+                    <br/><br/>
+                    熟悉 JavaWeb 的开发与发布，了解怎样利用 Eclipse，Intellij IDEA，Docker 进行打包，业余时间热爱编写开源代码。
+                    <br/><br/>
+                    有良好的代码风格与清晰的文档结构，遵循团队开发规范。
+                    <br/><br/>
+                    当前主要学习 Java 语言，也会写一些简单的前端页面。</p>
+            </section>
+            <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <p style="color: #222222; font-size: 22px;">个人经验</p>
+                <hr style="border:1px dashed #222222"/>
+
+            </section>
+            <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="margin-top: 20px;">
+                <p style="color: #222222; font-size: 22px;">个人技能</p>
+                <hr style="border:1px dashed #222222"/>
+
+            </section>
+            <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="margin-top: 20px;">
+                <p style="color: #222222; font-size: 22px;">项目经历</p>
+                <hr style="border:1px dashed #222222"/>
+
+            </section>
+        </div>
+    </main>
+
+    <div style="width: 100%; text-align: center; padding-bottom: 20px">
+        <p class="copy-right">&copy; 2018 <th:block th:text="Alen"></th:block></p>
+        <th:block><a class="copy-right" th:href="@{http://www.miitbeian.gov.cn/}" th:text="鲁ICP备18053785号"></a></th:block>
+    </div>
+
+</body>
+</html>

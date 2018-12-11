@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<div th:replace="site/head"></div>
+
+<body>
+
+    
+
+    	<!-- header -->
+
+        <div th:replace="site/header"></div>
+
+
+        <!-- header -->
+
+        <!-- main -->
+
+        <main role="main-inner-wrapper" class="container">
+
+        	
+
+            <div class="row">
+
+            
+
+            	<section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+
+                	<article role="pge-title-content">
+
+                    	<header>
+
+                        	<h2><span>Hi! </span> My name is Alen.</h2>
+
+                        </header>
+
+                        <p>I’m a Android FW & APP developer with an enduring interest in learning new knowledge</p>
+
+                    </article>
+
+                </section>
+
+                
+
+                <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+                	<article class="about-content">
+
+                    	<p>Thanks for visit mine site.  I am very glad to learn and community with you</p>
+
+                        <p>If you are interest in Android Framework , you can join QQ Group : 255838102</p>
+
+                        <p>If you are interest in Android APP development , you can visit mine github page</p>
+
+                        <p>If you want to build a personal-page like mine , you can visit mine CDSN page</p>
+
+                        <p>you can contact me with email : sduliulun@163.com</p>
+
+                    </article>
+
+                </section>
+
+                
+
+                <div class="clearfix"></div>
+
+                
+
+                <!-- thumbnails -->
+
+                	<div class="thumbnails-pan">
+                        <th:block>
+                            <th:block>
+                                <section class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
+
+                                    <figure>
+
+                                        <img th:src="@{/site/images/about-images/about-image-1.jpg}"  class="img-responsive"/>
+
+                                        <figcaption>
+
+                                            <h3><th:block th:text="Alen"></th:block></h3>
+
+                                        </figcaption>
+
+                                    </figure>
+
+                                </section>
+                            </th:block>
+
+                        </th:block>
+
+
+
+                        
+
+                     
+
+                    </div>
+
+                <!-- thumbnails -->
+
+                
+
+                
+
+            </div>
+
+        </main>
+
+    	<!-- main -->
+
+        <!-- footer -->
+
+        <div th:replace="site/footer"></div>
+
+</body>
+</html>
